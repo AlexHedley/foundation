@@ -1,6 +1,6 @@
 # Foundation
 
-![Foundation](images/Foundation.jpeg "Foundation")
+![Foundation](images/foundation.jpeg "Foundation")
 
 ## Links
 
