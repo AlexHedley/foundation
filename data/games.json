@@ -2,19 +2,45 @@
     "games": [
         {
             "id": 1,
-            "name": "",
-            "date": "2021-01-01",
+            "name": "First Game",
+            "date": "2021-06-01",
             "description": "",
             "players": [
                 {
-                    "name": "",
-                    "score": ,
-                    "winner": true
+                    "name": "Alex",
+                    "score": 25,
+                    "points": -6,
+                    "winner": false,
+                    "colour": "light"
                 },
                 {
-                    "name": "",
-                    "score": ,
-                    "winner": false
+                    "name": "Courtney",
+                    "score": 31,
+                    "points": -6,
+                    "winner": true,
+                    "colour": "dark"
+                }
+            ]
+        },
+        {
+            "id": 2,
+            "name": "Second Game",
+            "date": "2021-06-01",
+            "description": "",
+            "players": [
+                {
+                    "name": "Alex",
+                    "score": 26,
+                    "points": -6,
+                    "winner": false,
+                    "colour": "light"
+                },
+                {
+                    "name": "Courtney",
+                    "score": 32,
+                    "points": -6,
+                    "winner": true,
+                    "colour": "dark"
                 }
             ]
         }

@@ -32,7 +32,7 @@
 
         <section class="jumbotron title-container text-center">
             <div>
-                <h1></h1>
+                <h1>Foundation</h1>
 
                 <div class="row justify-content-md-center">
                     <div class="col-lg-8">
@@ -51,7 +51,7 @@
         </button>
         <div class="collapse" id="prize">
             <div class="row justify-content-md-center">
-                <img src="images/.jpeg" width="500px" alt="Game" />
+                <img src="images/foundation.jpeg" width="500px" alt="Game" />
             </div>
         </div>
 
@@ -94,7 +94,7 @@
                                 <p class="card-text">{{game.description}}</p>
                                 <p class="card-text">{{game.date | date:'d MMM yyyy'}}</p>
                                 <div ng-repeat="player in game.players">
-                                    <p>{{player.name}} <span ng-if="player.winner"><strong>Winner</strong></span></p>
+                                    <p>{{player.name}} <span class="badge badge-primary">{{player.score}}</span> <span class="badge badge-secondary">{{player.points}}</span> <span ng-if="player.winner"><strong>Winner</strong></span></p>
                                 </div>
                             </div>
                         </div>
